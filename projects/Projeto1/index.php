@@ -59,7 +59,7 @@
                     </ul>
                     <ul>
                         <li>
-                            <a href="exercicio.php?dir=tipos&file=aritmeticas">Op aritméticas</a>
+                            <a href="exercicio.php?dir=tipos&file=aritmeticas">Oper. aritméticas</a>
                         </li>
                     </ul>
                     <ul>
@@ -70,6 +70,29 @@
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=tipos&file=string">String</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=tipos&file=desafio_string">Desafio string</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=tipos&file=boolean">Boolean</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=tipos&file=conversoes">Conversões</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo azul">
+                    <h3>Variáveis</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=basico">Introd. variáveis</a>
                         </li>
                     </ul>
                 </div>
