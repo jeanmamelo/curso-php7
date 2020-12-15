@@ -23,23 +23,15 @@
                         <li>
                             <a href="exercicio.php?dir=basico&file=ola">Olá PHP</a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=basico&file=html">Integração PHP</a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=basico&file=css">Integração CSS</a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=basico&file=comentarios">Comentários PHP</a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=basico&file=desafio">Desafio</a>
                         </li>
@@ -51,38 +43,24 @@
                         <li>
                             <a href="exercicio.php?dir=tipos&file=int">Int</a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=tipos&file=float">Float</a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=tipos&file=aritmeticas">Oper. aritméticas</a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=tipos&file=desafio_precedencia">Desafio precedência</a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=tipos&file=string">String</a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=tipos&file=desafio_string">Desafio string</a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=tipos&file=boolean">Boolean</a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=tipos&file=conversoes">Conversões</a>
                         </li>
@@ -93,6 +71,9 @@
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=variaveis&file=basico">Introd. variáveis</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=desafio_equacao">Desafio equação</a>
                         </li>
                     </ul>
                 </div>
