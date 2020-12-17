@@ -19,6 +19,11 @@ body.exercicio {
     background-color: #555;
 }
 
+.cabecalho > h1 > a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .navegacao > a {
     text-decoration: none;
     color: #fff;

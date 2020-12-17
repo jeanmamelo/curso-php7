@@ -12,7 +12,9 @@
 </head>
 <body class="exercicio">
     <header class="cabecalho">
-        <h1>Curso PHP</h1>
+        <h1>
+            <a href="index.php">Curso PHP</a>
+        </h1>
         <h2>Visialização do Exercício</h2>        
     </header>
     <nav class="navegacao">
