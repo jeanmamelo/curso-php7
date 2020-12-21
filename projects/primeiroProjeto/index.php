@@ -87,7 +87,7 @@
         </div>
     </main>
     <footer class="rodape">
-        COD3R PHP Course © <?= date('Y'); ?>
+        COD3R PHP Course © <?=date('Y');?>
     </footer>
 </body>
 </html>

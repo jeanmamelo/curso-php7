@@ -2,14 +2,14 @@
 
 <h2>Exemplo A</h2>
 
-<?php 
-    echo "Olá <br>";
-    echo "Mundo!";
-    ?>
+<?php
+echo "Olá <br>";
+echo "Mundo!";
+?>
 
 <h2>Exemplo B</h2>
 
-<?= "Outra forma de me expressar!" ?>
+<?="Outra forma de me expressar!"?>
 
 <?php
-    phpinfo();
+phpinfo();

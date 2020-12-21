@@ -15,22 +15,22 @@
         <h1>
             <a href="index.php">Curso PHP</a>
         </h1>
-        <h2>Visialização do Exercício</h2>        
+        <h2>Visialização do Exercício</h2>
     </header>
     <nav class="navegacao">
-        <a href="<?= "/{$_GET['dir']}/{$_GET['file']}.php" ?>" class="verde">Sem formatação</a>
+        <a href="<?="/{$_GET['dir']}/{$_GET['file']}.php"?>" class="verde">Sem formatação</a>
         <a href="index.php" class="vermelho">Voltar</a>
     </nav>
     <main class="principal">
         <div class="conteudo">
             <?php
                 // include($_GET['dir'] . "/" . $_GET['file'] . ".php")
-                include(__DIR__ . "/{$_GET['dir']}/{$_GET['file']}.php")
+                include __DIR__ . "/{$_GET['dir']}/{$_GET['file']}.php"
             ?>
         </div>
     </main>
     <footer class="rodape">
-        COD3R PHP Course © <?= date('Y'); ?>
+        COD3R PHP Course © <?=date('Y');?>
     </footer>
 </body>
 </html>
