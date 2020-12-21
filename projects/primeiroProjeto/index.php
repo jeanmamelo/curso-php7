@@ -35,6 +35,9 @@
                         <li>
                             <a href="exercicio.php?dir=basico&file=desafio">Desafio</a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=basico&file=xdebug">Xdebug teste</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo vermelho">
