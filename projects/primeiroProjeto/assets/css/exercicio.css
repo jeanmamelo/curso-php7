@@ -38,7 +38,7 @@ body.exercicio {
 .navegacao > a.vermelho { background-color: #f44336; }
 
 .conteudo {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .conteudo > .titulo {

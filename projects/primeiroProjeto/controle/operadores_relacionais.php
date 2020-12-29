@@ -15,8 +15,9 @@ var_dump(111 == '111'); // true
 var_dump(111 === '111'); // false
 var_dump(111 != '111'); // false
 var_dump(111 !== '111'); // true
+echo '<br>';
 
-echo "<p>Relacionais no if/else</p><hr>";
+echo "<p class='divisao'>Relacionais no if/else</p><hr>";
 $idade = 15;
 if ($idade < 18) {
     echo "Idade = $idade anos, ou seja, menor de idade<br>";
@@ -25,25 +26,16 @@ if ($idade < 18) {
 } else {
     echo "Idade = $idade anos, ou seja, terceira idade<br>";
 }
+echo '<br>';
 
-echo "<p>Spaceship</p><hr>";
+echo "<p class='divisao'>Spaceship</p><hr>";
 var_dump(5 <=> 1); // 1
 var_dump(1 <=> 5); // -1
 var_dump(5 <=> 5); // 0
+echo '<br>';
 
-echo "<p>Valores podem ser TRUE ou FALSE</p><hr>";
+echo "<p class='divisao'>Valores podem ser TRUE ou FALSE</p><hr>";
 var_dump(!!5); // true
 var_dump(!!0); // false
 var_dump(!!""); // false
 var_dump(!!" "); // true
-?>
-
-<style>
-p {
-    margin-bottom: 0px;
-}
-
-hr {
-    margin-top: 0px;
-}
-</style>
