@@ -17,11 +17,16 @@
 </style>
 
 <?php
+echo 'GET => ';
 print_r($_GET);
 echo '<br>';
+echo 'POST => ';
 print_r($_POST);
 $combinacao = $_GET + $_POST;
+echo '<br>';
 
 echo '<br>' . count($_POST);
+echo '<br>';
+
 echo '<br>';
 print_r($combinacao);
