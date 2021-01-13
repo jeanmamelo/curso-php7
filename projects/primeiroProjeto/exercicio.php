@@ -15,7 +15,7 @@
         <h1>
             <a href="index.php">Curso PHP</a>
         </h1>
-        <h2>Visialização do Exercício</h2>
+        <h2>Visualização do Exercício</h2>
     </header>
     <nav class="navegacao">
         <a href="<?="/{$_GET['dir']}/{$_GET['file']}.php"?>" class="verde">Sem formatação</a>
