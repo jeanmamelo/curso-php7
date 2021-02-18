@@ -44,6 +44,9 @@
                         <li>
                             <a href="exercicio.php?dir=funcoes&file=closure_callable">Closure & callable</a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=recursividade">Recursividade</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo verde-escuro">
