@@ -38,7 +38,7 @@ $array = [
  * minha solução
  */
 
-Class Desafio_recursao {
+class desafio_recursao {
 
     public $array = [
         1, 2,
@@ -55,18 +55,23 @@ Class Desafio_recursao {
         10
     ];
 
-    public function printArrayByLevel($array, $level) {
+    function printArrayByLevel($array, $level) {
         foreach ($array as $key) {
             if (!is_array($key)) {
                 echo "$level $key";
                 echo '<br>';
             } else {
-                printArrayByLevel($key, $level . $level[0]);
+                $this->printArrayByLevel($key, $level . $level[0]);
             }
         }
     }
 
 }
+
+    $test = new desafio_recursao;
+    $test->printArrayByLevel($test->array, '#');
+
+    echo '<br>';
 
 /**
  * solução do professor
