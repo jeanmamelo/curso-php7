@@ -1,4 +1,4 @@
-<div class="titulo">While/do while</div>
+<div class="titulo">While & do while</div>
 
 <?php
 const VALOR_LIMITE = 5;

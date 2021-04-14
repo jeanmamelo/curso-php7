@@ -71,13 +71,13 @@
                             <a href="exercicio.php?dir=repeticoes&file=foreach">Foreach</a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=repeticoes&file=break_continue">Break/continue</a>
+                            <a href="exercicio.php?dir=repeticoes&file=break_continue">Break & continue</a>
                         </li>
                         <li>
                             <a href="exercicio.php?dir=repeticoes&file=desafio_impressao">Desafio impressão</a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=repeticoes&file=while">While/do while</a>
+                            <a href="exercicio.php?dir=repeticoes&file=while">While & do while</a>
                         </li>
                         <li>
                             <a href="exercicio.php?dir=repeticoes&file=desafio_tabela">Desafio tabela #01</a>
@@ -129,7 +129,7 @@
                     <h3>4. Controle</h3>
                     <ul>
                         <li>
-                            <a href="exercicio.php?dir=controle&file=if_else">If e else</a>
+                            <a href="exercicio.php?dir=controle&file=if_else">If & else</a>
                         </li>
                         <li>
                             <a href="exercicio.php?dir=controle&file=operadores_relacionais">Operadores relacionais</a>
