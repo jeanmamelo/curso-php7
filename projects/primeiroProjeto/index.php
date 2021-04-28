@@ -26,6 +26,9 @@
                         <li>
                             <a href="exercicio.php?dir=classes_objetos&file=desafio_data">Desafio classe data</a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=construtor_destrutor">Construtor & destrutor</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo vermelho-escuro">
