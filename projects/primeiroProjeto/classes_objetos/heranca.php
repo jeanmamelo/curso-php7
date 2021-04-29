@@ -47,7 +47,7 @@ class Usuario extends Pessoa
 
     function __destruct()
     {
-        echo 'Usuário destrído com sucesso!' . PHP_EOL;
+        echo 'Usuário destruído com sucesso!' . PHP_EOL;
         echo '<br>';
         parent::__destruct();
     }
