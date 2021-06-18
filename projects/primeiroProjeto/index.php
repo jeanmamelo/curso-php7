@@ -47,6 +47,9 @@
                         <li>
                             <a href="exercicio.php?dir=classes_objetos&file=desafio_erros">Desafio erros</a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=final">Modificador final</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo vermelho-escuro">
