@@ -36,12 +36,12 @@ class Concreta extends FilhaAbstrata
         echo "Executando o método 2, com o parâmetro: $parameter<br>";
     }
 
-    public function method3Name()
+    protected function method3Name()
     {
         echo "Executando o método 3 extendido<br>";
     }
 
-    public function method4Name($parameter)
+    protected function method4Name($parameter)
     {
         echo "Executando o método 4, com o parâmetro: $parameter<br>";
     }
@@ -55,6 +55,13 @@ class Concreta extends FilhaAbstrata
 
 $c = new Concreta();
 $c->method1Name();
-// $c->method2Name('externo');
+// $c->method4Name('externo');
+$c->method7Name();
 
-echo 'Fim';
+echo '<br>';
+var_dump($c);
+
+echo '<br>';
+var_dump($c instanceof Concreta);
+var_dump($c instanceof FilhaAbstrata);
+var_dump($c instanceof Abstrata);
