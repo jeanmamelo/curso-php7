@@ -32,6 +32,9 @@
                         <li>
                             <a href="exercicio.php?dir=includes&file=require_return">Require e return</a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=include_once">Include once</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo azul-escuro">
