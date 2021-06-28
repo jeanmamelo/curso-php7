@@ -9,18 +9,10 @@ class Pessoa
     {
         $this->nome = $novoNome;
         $this->idade = $idade;
-        echo 'Pessoa criada com sucesso!' . PHP_EOL;
-        echo '<br>';
-    }
-
-    function __destruct()
-    {
-        echo 'Pessoa destruída com sucesso!' . PHP_EOL;
     }
 
     public function apresentar()
     {
-        echo "{$this->nome}, {$this->idade} anos" . PHP_EOL;
-        echo '<br>';
+        return "{$this->nome}, {$this->idade} anos";
     }
 }

@@ -4,6 +4,6 @@
 require_once 'usuario.php';
 
 $usuario = new Usuario('Gustavo Guanabara', 40, 'guanabara');
-$usuario->apresentar();
+echo $usuario->apresentar();
 
 unset($usuario);

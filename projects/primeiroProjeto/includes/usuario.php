@@ -8,24 +8,12 @@ class Usuario extends Pessoa
 
     function __construct($nome, $idade, $login)
     {
-//        $this->nome = $nome;
-//        $this->idade = $idade;
         parent::__construct($nome, $idade);
         $this->login = $login;
-        echo 'Usuário criado com sucesso!' . PHP_EOL;
-        echo '<br>';
-    }
-
-    function __destruct()
-    {
-        echo 'Usuário destruído com sucesso!' . PHP_EOL;
-        echo '<br>';
-        parent::__destruct();
     }
 
     public function apresentar()
     {
-        echo "@{$this->login}: ";
-        parent::apresentar();
+        return "@{$this->login}: " . parent::apresentar();
     }
 }
